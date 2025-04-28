@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #e0f7fa;
+        }
+
+        header {
+            background-color: #009688; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin: 10px 0;
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin: 10px 0;
+        }
+
+        nav {
+            background-color: #00796b;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #004d40;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 300px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            color: #009688; 
+            margin-top: 15px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        
+        <h1>Chào Mừng Bạn Đến Với Trang Web Của Tôi</h1>
+        
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="gtbt.html">Giới Thiệu</a>
+            <a href="SV.html">Sử Việt</a>
+            <a href="VNSL.html">Việt Nam Sử Lược</a>
+        
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <a href="gtbt.html"> 
+                <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/470051862_576612818338021_6012415563298385808_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeH8okc1Psq4U0OsU_USDuuyhExraumfMJqETGtq6Z8wmq133eADvHMEI1XQBTbXpuuTpYreOOiVeN4N_AphatS-&_nc_ohc=ouhxbOPsrEwQ7kNvgHgo51g&_nc_oc=AdiCvEyadvSKmH_RsQBgERwpO5POMqZrcRzCgIgvZX92mzFWzGmWHnb42mzZXSrifsY&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&oh=03_Q7cD1gFi3pH4q0f5FMHPUWCc6ZIsUN-aHB4Ag99wUWf3Jeg61g&oe=6796DE76" alt="Giới thiệu"> 
+                <h2>Giới Thiệu</h2>
+            </a>
+        </div>
+        <div class="card">
+            <a href="SV.html"> 
+                <img src="https://salt.tikicdn.com/cache/w1200/media/catalog/product/b/i/bia-1_su-viet--tai-ban-co-sua-chua-.u2769.d20170825.t145604.820179.jpg" alt="SV"> 
+                <h2>Sử Việt - 12 khúc tráng ca</h2>
+                <p> Tác phẩm tâm đắc của tác giả Dũng Phan. Với tình yêu lịch sử được vun đắp từ thời thơ ấu cho đến hiện tại, ông đã cho ra cuốn sách này và đã để lại ấn tượng sâu sắc trong lòng bạn đọc.</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="VNSL.html"> 
+                <img src="https://book365.vn/upload/images/viet%20nam%20su%20luoc.jpg" alt="VN"> 
+                <h2>Việt Nam Sử Lược</h2>
+                <p>Đây được coi là quyển sử Việt Nam đầu tiên viết bằng chữ quốc ngữ, có phong cách ngắn gọn, súc tích và dễ hiểu, thích hợp với trình độ của đại chúng nên được tái bản nhiều lần. Tuy nhiên thời gian biên soạn quá ngắn nên sách có rất nhiều chi tiết sai sót, sau này Trần Trọng Kim đã hiệu đính lại 2 lần nhưng vẫn còn nhiều lỗi sai.</p>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Trang Web Giới Thiệu Sách </p>
+    </footer>
+
+</body>
+</html>
